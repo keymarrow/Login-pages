@@ -22,13 +22,14 @@ div{
 }
 .btn{
     background-color: #94f3f7c9;
-    color: white;
+    color: #ffffff;
     padding: 16px 20px;
-    border-radius: 25px;
+    border-radius: 5px;
     cursor: pointer;
     width: 50%;
     opacity: 0.5;
     text-align: center;
+    
 }
 .btn:hover{
     opacity: 1;
@@ -36,10 +37,15 @@ div{
 input[type=text] , input[type=password]{
     background-color: #91acacce;
     color: #000000;
-    width: 75%;
-    padding: 15px 16px 15px 16px;
+    width: 85%;
+    padding: 10px;
     border-radius: 5px;
 }
 .placeholder{
     color: white;
+}
+.confirm{
+    background-color: aliceblue;
+    color: blue;
+    padding: 10px;
 }
