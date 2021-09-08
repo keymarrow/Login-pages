@@ -67,7 +67,7 @@ c{
     float: left;
     color:#f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
     font-size: 12px;
 }
@@ -80,8 +80,14 @@ c{
     color:white;
 }
 svg{
-    padding: 25%;
+    padding: 5px 5px 5px 5px;
     float: left;
     text-align: center;
-    size: 20%;
+    size: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+nav{
+    padding:3px 3px 3px 3px;
+    
 }
