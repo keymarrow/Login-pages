@@ -10,8 +10,8 @@
 <body>
     <div>
         <form action="/projectZ/index.js" class="bigbox">
-            <h1>Register</h1>
-            <h3>Please enter your details <br>create your account within a minite</h3>
+            <h1 style="text-align: center;" >Register</h1>
+            <h3 style="text-align: center;">Please enter your details <br>create your account within a minite</h3>
             <label for="Name"><b>Name</b></label><br>
             <input type="text" placeholder="Enter your Full name" name="Name" required><br>
 
@@ -24,9 +24,10 @@
             <label for="Name"><b>create password</b></label><br>
             <input type="password" placeholder="Enter strong password" name="password" required><br>
 
-            <h3>are you ready to have an accont</h3>
+            <input type="checkbox" id="confirm" name="confirm" value="tick">
+            <label for=confirm >I accept the terms and condition & privacy policy</label>
             
-            <button type="submit" class="btn">SUBMIT</button>
+            <button type="submit" class="btn" >SUBMIT</button>
         </form>
     </div>   
 </body>
