@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="E:\projectZ\login.css">
+    <link rel="stylesheet" href="E:\projectZ\register.css">
     <link rel="stylesheet" href="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
     <title>www.sokoni-kwetu.com</title>
 </head>
@@ -17,24 +17,28 @@
     </nav>
     <div>
         <form action="/projectZ/index.js" class="bigbox">
-            <h1 style="text-align: center";>Login</h1>
-            <h3 style="text-align: center";>It's good to see you again. Log in to start your survey</h3>
+            <h1 style="text-align: center";>Register</h1>
+            <h3 style="text-align: center";>Please enter your details <br>create your account within a minite</h3>
             <label for="Name"><b>Name</b></label><br>
             <input type="text" placeholder="Enter your Full name" name="Name" required><br>
 
             <label for="Name"><b>Email</b></label><br>
             <input type="text" placeholder="Enter your Email" name="Email" required><br>
 
-            <label for="Name"><b>Enter yourpassword</b></label><br>
+            <label for="Name"><b>Phone</b></label><br>
+            <input type="text" placeholder="Enter your Phone number" name="+255 -" required><br>
+
+            <label for="Name"><b>create password</b></label><br>
             <input type="password" placeholder="Enter strong password" name="password" required><br><br>
 
-            <label for=confirm style="font-style: italic;">forget password?</label><br><br>
+            <input type="checkbox" id="confirm" name="confirm" value="tick">
+            <label for=confirm >I accept the terms and condition & privacy policy</label><br><br>
             
-            <button type="LOGIN" class="btn" >LOGIN</button>
+            <button type="submit" class="btn" >SUBMIT</button>
 
-            <h4>Don’t have an account yet? <c>Create a new account</c></h4>
+            <h4>Already have an account? <c>login</c></h4>
         </form>
-    </div>
-    <script src="/index.js"></script>   
+    </div>   
+    <script src="/index.js"></script>
 </body>
-</html> 
+</html>

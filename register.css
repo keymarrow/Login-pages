@@ -79,6 +79,14 @@ c{
     background-color: #b481a1;
     color:white;
 }
+svg{
+    padding: 5px 5px 5px 5px;
+    float: left;
+    text-align: center;
+    size: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
 nav{
     padding:3px 3px 3px 3px;
     
