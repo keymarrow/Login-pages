@@ -83,7 +83,7 @@ c{
 }
 nav{
     padding:4px; 
-    position: fixed;
+    position: absolute;
     top: 0;   
     width: 102%;
     margin: 2px;
@@ -119,4 +119,9 @@ div.community{
     margin: 20px;
     margin-left: 500px;
     margin-top: -188px;
+}
+div.icox{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
