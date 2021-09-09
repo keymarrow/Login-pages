@@ -34,11 +34,17 @@
             <input type="checkbox" id="confirm" name="confirm" value="tick">
             <label for=confirm >I accept the terms and condition & privacy policy</label><br><br>
             
-            <button type="submit" class="btn" >SUBMIT</button>
+            <input type="submit" class="btn" id="submitBtn"/>
 
             <h4>Already have an account? <a href="file:///E:/projectZ/login.html" target="_blank">login</a></h4>
         </form>
-    </div>   
-    <script src="/index.js"></script>
+        <footer></footer>
+    </div>
+    <script>
+      document.getElementById("submitBtn").addEventListener("click", myFunction);
+      function myFunction() {
+        window.location.href="file:///E:/projectZ/login.html";
+      }
+     </script>   
 </body>
 </html>
