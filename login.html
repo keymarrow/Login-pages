@@ -29,13 +29,19 @@
             <input type="password" placeholder="Enter strong password" name="password" required><br><br>
 
             <x>forget password?</x><br><br>
-            
-            <button type="LOGIN" class="btn" >LOGIN</button>
-
+           <a href="E:\projectZ\index.html">
+           <button input type="button" class="btn" id="LoginBtn" >LOGIN</button></a>
             <h4>Don’t have an account yet <a href="file:///E:/projectZ/register.html" target="_blank">Create a new account?</a></h4>
         </form>
-        <nav></nav>
+        <div class="seperator">
+            <p class="center-text">Or Log In With</p>
+        </div>
     </div>
-    <script src="/index.js"></script>   
+    <script>
+        document.getElementById("LoginBtn").addEventListener("click", myFunction);
+        function myFunction() {
+          window.location.href="E:\projectZ\index.html";
+        }
+       </script>
 </body>
 </html> 

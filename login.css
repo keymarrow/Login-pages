@@ -89,3 +89,8 @@ nav{
 a{
     color: #5a3e52;
 }
+div.seperator{
+    text-align: center;
+    margin: auto;
+    text-decoration-line: unset;
+}
