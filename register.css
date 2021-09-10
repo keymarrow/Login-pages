@@ -1,5 +1,6 @@
 body{
-    background-color: white;
+    background-color: #fff;
+    color: #fff;
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +11,7 @@ div{
      margin: auto;
      border-radius: 25px;
      border-width: 100px 80px 100px 80px;   
-     font-family: cursive;
+     font-family: cursives;
 }
 .bigbox{
      position: center;
@@ -18,7 +19,8 @@ div{
      margin: 20px;
      padding: 16px;
      border-radius: 12px;
-     background-color: #ffffff00;
+     /* background-color: #ffffff00; */
+     color: #b481a1;
 }
 .btn{
     background-color: #b481a1;
@@ -35,10 +37,12 @@ div{
     opacity: 1;
 }
 input[type=text] , input[type=password]{
-    background-color: #000000ce;
+    background-color: #f5f5f5ce;
+    border: 1px solid #d7d7d7;
+    box-shadow: inset 1px 1px 8px rgb(0 0 0 / 6%);
     color: #ffffff;
     width: 25%;
-    padding: 10px;
+    padding: 0.7rem 1.2rem;
     border-radius: 5px;
 }
 .placeholder{
@@ -50,23 +54,24 @@ input[type=text] , input[type=password]{
     padding: 10px;
 }
 label{
-    color: #030303;
+    color: #b481a1;
 }
 h1 ,h3{
-    color: #030303ce
+    color: #b481a1;
 }
 c{
     color: plum;
 }
 .topnav{
-    background-color: #333;
+    background-color: #eaeaea;
+    color: #333;
     overflow: hidden;
     font-family: cursive;
     border-radius: 5px;
 }
 .topnav a{
     float: left;
-    color:#f2f2f2;
+    color: #969696;
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
@@ -79,17 +84,23 @@ c{
 }
 .topnav a.active{
     background-color: #b481a1;
-    color:white;
+    color: #dadada;
 }
 nav{
-    padding:3px 3px 3px 3px;
+    padding:4px; 
     position: absolute;
-    top: 0;
-    width: 100%;
-    margin-top: 5px;
+    top: 0;   
+    width: 102%;
+    margin: 2px;
 }
 a{
     color: #5a3e52;
+}
+div.seperator{
+    text-align: center;
+    margin: auto;
+    text-decoration-line: unset;
+    color: #b38ab3;
 }
 footer{
     background-color: #a371a3d3;
@@ -115,7 +126,30 @@ div.community{
     margin-left: 500px;
     margin-top: -188px;
 }
+div.icox{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
 div.icon{
     margin-left: 1120px;
     margin-top: -50px;
+}
+hr {
+    border: none;
+    border-top: 3px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 27%;
+    color:  #b481a1;
+}
+
+hr:after {
+    background: #fff;
+    content: 'Or Login with';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
