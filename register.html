@@ -19,16 +19,16 @@
         <form action="/projectZ/index.js" class="bigbox">
             <h1 style="text-align: center";>Register</h1>
             <h3 style="text-align: center";>Please enter your details <br>create your account within a minite</h3>
-            <label for="Name"><b>Name</b></label><br>
+            <label for="Name">Name</label><br>
             <input type="text" placeholder="Enter your Full name" name="Name" required><br>
 
-            <label for="Name"><b>Email</b></label><br>
+            <label for="Name"></label>Email</label><br>
             <input type="text" placeholder="Enter your Email" name="Email" required><br>
 
-            <label for="Name"><b>Phone</b></label><br>
-            <input type="text" placeholder="Enter your Phone number" name="+255 -" required><br>
+            <label for="Name">Phone</label><br>
+            <input type="text" placeholder="Enter your Phone number" name="number"><br>
 
-            <label for="Name"><b>create password</b></label><br>
+            <label for="Name">create password</label><br>
             <input type="password" placeholder="Enter strong password" name="password" required><br><br>
 
             <input type="checkbox" id="confirm" name="confirm" value="tick">
@@ -40,7 +40,7 @@
         </form>
     </div>
     <script>
-      document.getElementById("submitBtn").addEventListener("click", myFunction);
+      document.getElementById("submitBtn").addEventListener("click",myFunction);
       function myFunction() {
         window.location.href="file:///E:/projectZ/login.html";
       }
