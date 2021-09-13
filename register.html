@@ -14,11 +14,12 @@
       <a href="#Contact Us">Contact Us</a>
       <a href="#About Us">About Us</a>
       <a href="#Login">Login</a>
+      <img src="menu.png" id="menu">
     </nav><br><br>
     <div>
         <form action="/projectZ/index.js" class="bigbox">
             <h1 style="text-align: center";>Register</h1>
-            <h3 style="text-align: center";>Please enter your details <br>create your account within a minite</h3>
+            <h3 style="text-align: center";>Please enter your details <br>create your account within a minite</h3><br>
             <label for="Name">Name</label><br>
             <input type="text" placeholder="Enter your Full name" name="Name" required><br>
 
@@ -26,7 +27,7 @@
             <input type="text" placeholder="Enter your Email" name="Email" required><br>
 
             <label for="Name">Phone</label><br>
-            <input type="text" placeholder="Enter your Phone number" name="number"><br>
+            <input type="text" placeholder="Enter your Phone number" name="number" required><br>
 
             <label for="Name">create password</label><br>
             <input type="password" placeholder="Enter strong password" name="password" required><br><br>
@@ -34,17 +35,11 @@
             <input type="checkbox" id="confirm" name="confirm" value="tick">
             <label for=confirm >I accept the terms and condition & privacy policy</label><br><br>
           
-            <input type="submit" class="btn" id="submitBtn"/>
+            <button type="submit" class="btn"><a  href="file:///E:/projectZ/login.html">SUBMIT</a></button><br><br>
 
             <h4>Already have an account? <a href="file:///E:/projectZ/login.html" target="_blank">login</a></h4>
         </form>
-    </div>
-    <script>
-      document.getElementById("submitBtn").addEventListener("click",myFunction);
-      function myFunction() {
-        window.location.href="file:///E:/projectZ/login.html";
-      }
-     </script>   
+    </div>  
 </body>
 <footer>
   <div class="footer">

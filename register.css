@@ -9,11 +9,11 @@ body{
 }
 div{
      margin: auto;
-     border-radius: 25px;
+     border-radius: 25rem;
      border-width: 100px 80px 100px 80px;   
-     font-family: cursives;
+     font-family: cursive;
 }
-.bigbox{
+form.bigbox{
      position: center;
      text-align: center;
      margin: 20px;
@@ -21,6 +21,7 @@ div{
      border-radius: 12px;
      /* background-color: #ffffff00; */
      color: #b481a1;
+     font-family: cursive;
 }
 .btn{
     background-color: #b481a1;
@@ -40,7 +41,7 @@ input[type=text] , input[type=password]{
     background-color: #f5f5f5ce;
     border: 1px solid #d7d7d7;
     box-shadow: inset 1px 1px 8px rgb(0 0 0 / 6%);
-    color: #ffffff;
+    color: #000000;
     width: 25%;
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
@@ -118,13 +119,13 @@ div.connect{
     padding: 0px 50px 0px 45px;
     margin: 20px;
     margin-left: 240px;
-    margin-top: -165px;
+    margin-top: -9rem;
 }
 div.community{
     padding: 0px 50px 0px 45px;
     margin: 20px;
     margin-left: 500px;
-    margin-top: -188px;
+    margin-top: -10.3rem;
 }
 div.icox{
     text-align: center;
@@ -138,7 +139,7 @@ div.icon{
 hr {
     border: none;
     border-top: 3px solid #333;
-    color: #333;
+    color: #806f6fd0;
     overflow: visible;
     text-align: center;
     height: 5px;
@@ -152,4 +153,18 @@ hr:after {
     padding: 0 4px;
     position: relative;
     top: -13px;
+}
+#menu{
+    margin-left: 970px;
+    padding: 0.2rem;
+    margin-bottom: 1px;
+    color: #b481a1;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
