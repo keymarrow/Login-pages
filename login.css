@@ -31,6 +31,7 @@ div{
     width: 10%;
     opacity: 0.5;
     text-align: center;
+    text-decoration: none;
     
 }
 .btn:hover{
@@ -113,18 +114,21 @@ footer{
 div.footer{
     padding: 0px 50px 0px 45px;
     margin: 20px;
+    text-decoration: none;
 }
 div.connect{
     padding: 0px 50px 0px 45px;
     margin: 20px;
     margin-left: 240px;
     margin-top: -165px;
+    text-decoration: none;
 }
 div.community{
     padding: 0px 50px 0px 45px;
     margin: 20px;
     margin-left: 500px;
     margin-top: -188px;
+    text-decoration: none;
 }
 div.icox{
     text-align: center;
