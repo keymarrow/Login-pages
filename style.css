@@ -7,7 +7,7 @@ li{
     margin: 1rem;
     width: auto;
     padding-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 li:hover{
     color:#64ffda;
@@ -35,7 +35,7 @@ h3{
     line-height: 4px;
 }
 p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 100;
     color: #8892b0;
     line-height: 25px;
@@ -94,22 +94,66 @@ nav.bout{
     margin: 10rem;
 }
 h1#bout{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #64ffda;
 }
 .bout{
-    font-family: "Montserrat" , sans-serif;   
+    font-family: "Montserrat" , sans-serif;
+    position: static;   
 }
 hr{
     color: #8892b0;
+    margin: auto;
 }
 #box{   
   background-color: transparent;
-  width: 1rem;
   border: 4px solid #64ffda;
-  padding: 8rem;
   float: right;
-  margin-bottom: 12rem;
+  width: 15rem;
+  height: 18rem;
   border-radius: 1rem;
-  height: 2rem;
+  margin-right: -7rem;
+  border-bottom: transparent;
+  border-right: transparent;
+  margin: 0;
+}
+div#box:hover{
+    color: #52d4b638;
+}
+img{
+    float: right;
+    width: 15rem;
+    border-radius: 1rem;
+    height: auto;
+    margin-top: 1.2rem;
+    margin-left: -10rem;
+}
+div.work{
+    float: right;
+    margin-right: 10rem;
+    font-family: "Montserrat" , sans-serif;
+    line-height: -18px;
+    margin-top: -8rem;
+}
+#work{
+    color: #64ffda;
+    margin-right: 1rem;
+    font-family: "Montserrat" , sans-serif;
+    margin-left: -28.5rem;
+    line-height: -10px;
+    font-size: 2rem;
+}
+div.experience{
+    margin: 10rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.4rem;
+    margin-top: 33rem;
+    font-size: 15px;
+}
+#experience{
+    color: #64ffda;
+    font-size: 2rem;
+}
+p.exp{
+    margin-top: -2px;
 }
