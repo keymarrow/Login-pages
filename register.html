@@ -9,30 +9,45 @@
     <title>www.sokoni-kwetu.com</title>
 </head>
 <body>
-    <nav class="topnav">
+    <!-- <nav class="topnav">
       <a class="active" href="#Home">Home</a>
       <a href="#Contact Us">Contact Us</a>
       <a href="#About Us">About Us</a>
       <a href="#Login">Login</a>
-    </nav><br><br>
+    </nav><br><br> -->
     <div>
         <form action="/projectZ/index.js" class="bigbox">
             <h1 style="text-align: center";>Register</h1>
             <h3 style="text-align: center";>Please enter your details <br>create your account within a minite</h3><br>
-            <label for="Name">Name</label><br>
-            <input type="text" placeholder="Enter your Full name" name="Name" required><br>
+            <div class="details">
+              <input type="text" placeholder="Enter your Full name" name="Name" required><br>
 
-            <label for="Name"></label>Email</label><br>
-            <input type="text" placeholder="Enter your Email" name="Email" required><br>
+              <input id="detailed" type="text" placeholder="Enter your Email" name="Email" required><br>
 
-            <label for="Name">Phone</label><br>
-            <input type="text" placeholder="Enter your Phone number" name="number" required><br>
+              <input id="detailed" type="text" placeholder="Enter your Phone number" name="number" required><br>
 
-            <label for="Name">create password</label><br>
-            <input type="password" placeholder="Enter strong password" name="password" required><br><br>
+              <div>
+                
+                <input id="detailed" type="text" placeholder="Select University/college" name="Select"><br>
+                <!-- <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </div> -->
 
-            <input type="checkbox" id="confirm" name="confirm" value="tick">
-            <label for=confirm >I accept the terms and condition & privacy policy</label><br><br>
+              <input id="detailed" type="text" placeholder="Select program or course" name="Select" ><br>
+
+              <input id="detailed" type="password" placeholder="Enter strong password" name="text" required><br>
+
+              <input id="detailed" type="password" placeholder="confirm password" name="text" required><br><br>
+
+              <input type="checkbox" id="confirm" name="confirm" value="tick">
+              <label for=confirm >I accept the terms and condition & privacy policy</label><br><br>
+          </div>
           
             <button type="submit" class="btn"><a  href="/login.html" target="_bank" style="text-decoration: none;">SUBMIT</a></button><br><br>
 
@@ -41,7 +56,7 @@
     </div>  
 </body>
 <footer>
-  <div class="footer">
+  <!-- <div class="footer">
     <p><br>
     <h2>About Us</h2>
     <a href="#">We are work as team</a><br>  
@@ -68,6 +83,6 @@
     </div>
     <div class="icon">
       Follow us :<img src="facebook.png">  <img src="instagram.png">  <img src="twitter.png"> <img src="tik-tok.png">
-     </div>
+     </div> -->
 </footer>
 </html>
