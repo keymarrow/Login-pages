@@ -1,2 +1,2 @@
-# sokoni-project
-buy and sell various products site
+# Login and registration form
+sect and choose university you want to join
