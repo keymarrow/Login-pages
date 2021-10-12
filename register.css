@@ -7,12 +7,12 @@ body{
     background-size: cover;
     position: relative;
 }
-div{
+/* div{
      margin: auto;
      border-radius: 25rem;
-     border-width: 100px 80px 100px 80px;   
+     border-width: 90px 80px 90px 80px;   
      font-family: cursive;
-}
+} */
 form.bigbox{
      position: center;
      text-align: center;
